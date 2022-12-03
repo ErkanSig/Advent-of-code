@@ -1,4 +1,3 @@
-import requests
 import pandas as pd
 calories = pd.read_csv('./Data/calories.csv', sep = "\s+|\t+|\s+\t+|\t+\s+")
 # print(calories.head(20))
